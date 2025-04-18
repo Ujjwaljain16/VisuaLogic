@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './LandingPage.css';
+import '../App.css';
 import { 
   Link as LinkIcon, 
   Eye,
