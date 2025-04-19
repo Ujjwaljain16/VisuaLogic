@@ -1,3 +1,4 @@
+/* LinkedList.css */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -23,6 +24,7 @@
   color: var(--text-primary);
 }
 
+/* Section Header Styling */
 .section-header {
   text-align: center;
   margin-bottom: 40px;
@@ -44,6 +46,7 @@
   border-radius: 2px;
 }
 
+/* Hero Section */
 .hero-section {
   display: flex;
   flex-direction: column;
@@ -178,6 +181,7 @@
   z-index: 1;
 }
 
+/* SVG Animation */
 .node-rect {
   fill: var(--primary-color);
   stroke: var(--primary-dark);
@@ -242,6 +246,7 @@
   50% { transform: translateY(-5px); }
 }
 
+/* Features Section */
 .features-section {
     margin: 60px 0;
     opacity: 0;
@@ -443,6 +448,7 @@
   font-weight: 600;
 }
 
+/* Applications Section */
 .applications-section {
   margin: 80px 0;
   opacity: 0;
@@ -514,7 +520,7 @@
   line-height: 1.6;
 }
 
-
+/* Code Example Section */
 .code-example-section {
   margin: 80px 0;
 }
