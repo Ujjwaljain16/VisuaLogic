@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './leetcode.css';
+import './Leetcode.css';
 
 const LeetCodeProblemFetcher = () => {
   const [problems, setProblems] = useState([]);
