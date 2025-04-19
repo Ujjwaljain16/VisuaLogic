@@ -82,7 +82,7 @@ const LinkedList = () => {
               Interactive Visualizer <ChevronRight size={16} className="btn-icon" />
             </button>
             <button className="secondary-btn" onClick={() => navigate('/linked-list/operations')}>
-              Basic Operations
+              Solve Problems
             </button>
           </div>
         </div>

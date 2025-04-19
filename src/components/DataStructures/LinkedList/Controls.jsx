@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLinkedList } from '../../../../context/LinkedListContext';
+import { useLinkedList } from '../../../context/LinkedListContext';
 import './Controls.css';
 
 const Controls = () => {

@@ -3,7 +3,7 @@ import Node from './Node';
 import Controls from './Controls';
 import Legend from './Legend';
 import OperationPanel from './OperationPanel';
-import { useLinkedList } from '../../../../context/LinkedListContext';
+import { useLinkedList } from '../../../context/LinkedListContext';
 import './LinkedListVisualizer.css';
 
 const LinkedListVisualizer = () => {

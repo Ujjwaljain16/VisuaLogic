@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLinkedList } from '../../../../context/LinkedListContext';
+import { useLinkedList } from '../../../context/LinkedListContext';
 import CodeDisplay from './CodeDisplay';
 import StepControls from './StepControls';
 import './OperationPanel.css';
