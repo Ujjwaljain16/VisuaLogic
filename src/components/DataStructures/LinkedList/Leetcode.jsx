@@ -53,7 +53,8 @@ const LeetCodeProblemFetcher = () => {
     };
 
     try {
-      const response = await fetch('/api/leetcode', {
+      const response = await fetch('/.netlify/functions/leetcode', {
+
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
