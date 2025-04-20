@@ -84,16 +84,15 @@ const LandingPage = () => {
     <div className="landing-container">
       <header className="landing-header">
         <div className="logo">VisuaLogic</div>
+  
         <nav className={`main-nav ${mobileMenuOpen
             ? 
             'mobile-open' 
             : ''}`}>
           <a href="#features">Features</a>
-          <a href="#data-structures">Data Structures</a>
           <a href="#about">About</a>
         </nav>
         <div className="header-right">
-          <button className="cta-button secondary">Get Started</button>
           <button 
             className="mobile-menu-btn" 
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -113,7 +112,7 @@ const LandingPage = () => {
             <button className="cta-button primary" onClick={() => navigate('/data-structures', { replace: true })}>
               Explore Data Structures
             </button>
-            <button className="cta-button outline" onClick={() => navigate('/tutorials')}>
+            <button className="cta-button outline" onClick={() => navigate('/algorithims', { replace: true })}>
               Explore Algorithims
             </button>
           </div>
@@ -172,9 +171,6 @@ const LandingPage = () => {
               Interactive code execution
             </li>
           </ul>
-          <button className="cta-button primary" onClick={() => navigate('/methodology')}>
-            Learn About Our Approach
-          </button>
         </div>
       </section>
 

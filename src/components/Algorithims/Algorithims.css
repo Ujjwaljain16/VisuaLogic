@@ -1,0 +1,98 @@
+.algorithims-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--bg-tertiary);
+}
+
+.algorithims-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.algorithims-section > * + * {
+  margin-top: 2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.algo-card {
+  background-color: var(--bg-secondary);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: var(--transition-standard);
+}
+
+.algo-card-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.algo-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.algo-card-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.algo-card-action {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+}
+
+.algo-card:hover {
+  background-color: rgba(79, 70, 229, 0.1);
+}
+
+.algo-card:hover .algo-card-action {
+  color: var(--secondary-color);
+}
+
+.arrow-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  transition: var(--transition-standard);
+}
+
+.algo-card:hover .arrow-icon {
+  transform: translateX(3px);
+}

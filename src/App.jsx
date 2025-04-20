@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import DataStructures from "./pages/DataStructures";
+import Algorithims from "./components/Algorithims/Algorithims";
 import LinkedList from "./components/DataStructures/LinkedList/LinkedList";
 import LinkedListVisualizer from "./components/DataStructures/LinkedList/LinkedListVisualizer";
 import LeetCodeProblemFetcher from "./components/DataStructures/LinkedList/Leetcode";
@@ -19,6 +20,8 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/data-structures" element={<DataStructures />} />
+        <Route path="/algorithims" element={<Algorithims />} />
+
         <Route path="/linked-list" element={<LinkedList />} />
         <Route
           path="/linked-list/operations"
