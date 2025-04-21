@@ -186,9 +186,8 @@ const LandingPage = () => {
           <div className="footer-links">
             <div className="link-group">
               <h4>Company</h4>
-              <a href="/about">About Us</a>
-              <a href="/contact">Contact</a>
-              <a href="/careers">Careers</a>
+              <a href="/about">Bengaluru</a>
+              <a href="/contact">+91 9259413773</a>
             </div>
           </div>
         </div>
